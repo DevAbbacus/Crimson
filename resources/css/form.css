@@ -1,0 +1,19 @@
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+  @apply .border-red-600;
+}
+@media screen and (max-width:1724px){
+.top_header {flex-wrap: wrap;}
+.flex-1.min-w-0 {min-width: 100%;margin-bottom: 20px;}
+
+}
+@media screen and (max-width:767px){
+.top_header .flex.items-center {margin-top: 14px;}
+.top_header .mr-2.rounded-full.border-2 {font-size: 13px;padding: 4px 10px;}
+.top_header .absolute {left: -13px;margin-top: 29px;}
+}
+body .multiselect--above .multiselect__content-wrapper {
+	top: 41px;
+	bottom: auto;
+}

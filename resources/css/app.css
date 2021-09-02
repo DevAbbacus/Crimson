@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@import 'buttons';
+
+@import 'form';
+
+@import 'tailwindcss/utilities';
+
+@import 'vue-multiselect/dist/vue-multiselect.min.css';
+
+.multiselect__tags-wrap {
+    display: block !important;
+}
+
+.btn-icon {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    overflow: hidden;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+    outline: none !important;
+}
+.hide {
+  display: none !important;
+}
